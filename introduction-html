@@ -1,0 +1,186 @@
+                     HTML
+=======================================================
+
+HTML : HYPER TEXT MARKUP LANGUAGE
+
+HTML is the standard markup language for creating web pages.
+
+HTML describes the structure of a Web page
+
+HTML consists of a series of elements.
+
+HTML elements tell the browser how to display the content.
+
+Simple Example code For Html
+=============================
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is for sample web page</title>
+</head>
+<boby>
+<h1>first page</h1>
+<p>Second page</p>
+</boby>
+</html>
+
+===============================================================================================
+-----><DOCTYPE HTML> Declaration defines that this Document is an HTML5 documents
+
+-----><html> Elements is the root elements of an HTML page.
+
+-----><head> Element contains meta information about the Html pages.
+
+-----><title> Element specific a title for the HTML pages(which is show in browser title bar or in the pages tab)
+
+-----><boby> Element defines the docu boby ,and is a container for all the visible contents ,such as heading ,images,paragraphs,hyperlinks,tables, lists, Etc.
+
+-----><h> Element define a large heading
+
+-----><p> Element defines a paragraph.
+
+
+what is an HTML Element ?
+Hypertext markup language element define by a start tag ,some content and end tag.
+<tagname></tagname>
+<h1>heading</h1>
+<p>paragraph</p>
+
+
+Html documents:
+===============
+-----> All HTML starts with a document type declaration <DOCTYPE html>
+-----> Html Documents itselfs begins with in the <html></html>
+-----> The visible the HTML Documents is b/w <boby></boby>
+
+<DOCTYPE> Declaration:
+=====================
+
+-----> <DOCTYPE></DOCTYPE> declaration is represents the Docu type ,and helps browsers to display web pages correctly.
+-----> <DOCTYPE></DOCTYPE> Declaration is not case sensitive.
+
+
+HTML Headings:
+==============
+----> HTML headings is defined with the <h1></h6> tags.
+    <h1>this is most importance heading  </h1> this is for least importance heading 
+
+
+HTML paragraph
+===============
+---> HTML paragraph is defind with <p></p>
+<p>this is first paragraph</p>
+
+
+HTML LINKS :
+============
+----> HTML links is defined with <a></a>
+<a herf="https://www.free-css.com/template-categories/jquery">This is jquery link</a>
+
+
+HTML images:
+============
+----> HTML images are defined with the <img> tag.
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+
+===============================================================================================
+
+
+Nested HTML Elements :
+======================
+----> HTML elements can be nested 
+----> All HTMl Documents consists of nested HTML elements.
+example elements contains for HTML elements (<html>,<boby>,<h1>,<p>)
+
+Empty HTML Elements
+===================
+----> HTML elements with no content are called empty elements.
+---> <br> tag lines break and is empty elements without closing tag.
+
+<p> this is for <br> my first paragraph.</p>
+
+
+
+
+==========================================================================================================
+
+
+Html Attributes:
+================
+----> All Html elements can have Attributes.
+----> Attributes provides additional information about elements.
+----> Attributes are always specified in the start tag.
+----> Attributes usually come in name /values pairs like name="value"
+
+herf Attributes:
+================
+The <a herf tag defines a hyperlink. The herf attributes specifies the url ot the page the link.
+<a herf="url link">this is link name</a>
+
+src Attributes:
+===============
+The <img> tag an image in an Html page . The src attribute specific the path to the image to the display.
+
+<img src="img jpg">
+
+width and height attribute:
+============================
+The <img> tag should also contain the width and height attribute, with specify the width and height of the image.
+<img src="url of image" width="210" height="3000"
+
+alt attribute:
+=============
+The required alt attribute for the <img> tag specific an alternative text for an image.if the images for some resons cannot be displayed. this can be due to slow connection ,or an error in the src attribute or if the user uses a screen record.
+
+<img src="image url" alt="image name" width="200" height="390"
+
+style attribute:
+================
+The style attribute is used to add style to an elements ,such as color,front,size,and more.
+
+<p style="color:red;">this is red color page</p>
+
+lang Attribute:
+================
+The lang attribute inside the <html> tag ,to declare the languge of the web page. 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    </head>
+</html>
+
+The lang attribute inside the <html> tag add the language code in the lang attribute, so ,the first two characters define the language of the HTML page, and the last two characters define the country.
+ <!DOCTYPE html>
+ <html lang="en-us">
+    <head>
+        <boby>
+
+        </boby>
+    </head>
+ </html>
+
+ title attribute:
+ ================
+ The title attribute desines some extra inforamtion about of an elements.
+ <p title="this is paragraph">this is first paragraph</p>
+
+
+
+====================================================================================================
+
+Html headings
+=============
+Html headings are defines with the <h1></h1>
+<h1>defines as most importance headings </h1> defines as least importance of headings.
+
+search engines use the headings to index the structure and content of your web page.
+
+Bigger Headings
+==============
+
+Html headings has a default size , you can specify the size for any heading with the style attribute ,using the CSS Font-size,
+
+<p style="font-size:60px">heading 1</p>
+
